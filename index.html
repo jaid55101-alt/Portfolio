@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b12">
+    <meta name="description" content="Jai Dev is a learning web developer in India, building thoughtful projects with HTML, CSS, JavaScript, APIs, Kotlin and Python.">
+    <title>Jai Dev — Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="page-glow page-glow-one" aria-hidden="true"></div>
+    <div class="page-glow page-glow-two" aria-hidden="true"></div>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Jai Dev home"><span class="brand-mark">J<span>.</span></span><span>Jai Dev</span></a>
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu"><span></span><span></span></button>
+            <div class="nav-menu" id="site-menu">
+                <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero section-wrap" id="home">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="status-dot"></span> FRONTEND DEVELOPER IN THE MAKING <span class="eyebrow-line"></span></p>
+                <h1>Hi, I'm<br><span class="name-gradient">Jai Dev</span><span class="hero-period">.</span></h1>
+                <h2>Web Developer <span class="role-slash">/</span> <span class="role-secondary">Curious builder</span></h2>
+                <p class="hero-description">Building modern web experiences while learning, experimenting and turning ideas into real projects.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#projects">View My Projects <span>↗</span></a><a class="button button-quiet" href="#contact">Contact Me <span>↗</span></a></div>
+                <div class="hero-links" aria-label="Social links"><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><span class="link-divider"></span><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><span class="hero-location"><span>⌖</span> India</span></div>
+            </div>
+            <div class="hero-art reveal" aria-label="Illustrated code editor and terminal">
+                <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core"><span>&lt;/&gt;</span></div>
+                <div class="code-window"><div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>jai.dev / portfolio.js</span><span class="window-menu">···</span></div><div class="code-content">
+                    <div class="code-line"><span class="line-no">01</span><span><b class="code-purple">const</b> <b class="code-blue">developer</b> <span class="code-muted">=</span> {</span></div>
+                    <div class="code-line indent"><span class="line-no">02</span><span><b class="code-cyan">name</b>: <b class="code-green">"Jai Dev"</b>,</span></div>
+                    <div class="code-line indent"><span class="line-no">03</span><span><b class="code-cyan">learning</b>: <b class="code-green">"every day"</b>,</span></div>
+                    <div class="code-line indent"><span class="line-no">04</span><span><b class="code-cyan">building</b>: [</span></div>
+                    <div class="code-line indent deeper"><span class="line-no">05</span><span><b class="code-green">"web experiences"</b>,</span></div>
+                    <div class="code-line indent deeper"><span class="line-no">06</span><span><b class="code-green">"what's next"</b></span></div>
+                    <div class="code-line indent"><span class="line-no">07</span><span>],</span></div>
+                    <div class="code-line"><span class="line-no">08</span><span><span class="code-muted">};</span><span class="terminal-cursor"></span></span></div>
+                </div><div class="window-status"><span><i></i> Learning in public</span><span>UTF-8&nbsp; · &nbsp;JavaScript</span></div></div>
+                <div class="float-chip chip-top"><span class="chip-icon cyan-icon">{ }</span><span><small>Currently learning</small><strong>JavaScript + APIs</strong></span></div>
+                <div class="float-chip chip-bottom"><span class="chip-icon violet-icon">↗</span><span><small>Based in</small><strong>India · IST</strong></span></div>
+                <div class="art-caption"><span>01 / 06</span><span>Ideas into interfaces</span></div>
+            </div>
+            <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+        </section>
+        <section class="about section-wrap section-pad" id="about">
+            <div class="section-heading reveal"><p class="eyebrow">A LITTLE ABOUT ME <span class="eyebrow-line"></span></p><h2>Learning by <span class="accent-text">building.</span></h2></div>
+            <div class="about-grid"><div class="about-copy reveal"><p class="lead-copy">I'm a beginner web developer exploring how the web works, one project at a time.</p><p>Right now, I'm learning HTML, CSS and JavaScript by making real things, experimenting with APIs, and refining the details of interactive interfaces. I like seeing an idea turn into something you can click, use and share.</p><p>I'm also exploring Android development with Kotlin and Jetpack Compose, and starting to find my way around Python and AI projects. Still learning, always curious.</p></div>
+                <div class="interest-panel reveal"><div class="interest-top"><span class="tiny-label">THINGS I ENJOY</span><span class="interest-spark">✳</span></div><div class="interest-list"><span>Building websites</span><span>Working with APIs</span><span>JavaScript</span><span>Learning new tech</span><span>AI projects</span><span>UI experiments</span></div><div class="interest-foot"><span class="status-dot"></span> CURRENTLY EXPLORING WHAT'S POSSIBLE</div></div>
+            </div>
+        </section>
+        <section class="skills section-wrap section-pad" id="skills">
+            <div class="section-heading reveal"><p class="eyebrow">TOOLS I'M LEARNING <span class="eyebrow-line"></span></p><h2>My current <span class="accent-text">toolkit.</span></h2><p class="section-intro">A growing set of skills, built through practice and projects.</p></div>
+            <div class="skill-grid reveal">
+                <div class="skill-card skill-featured"><span class="skill-index">01</span><span class="skill-symbol">&lt;/&gt;</span><strong>HTML</strong><small>Structure</small></div>
+                <div class="skill-card skill-featured"><span class="skill-index">02</span><span class="skill-symbol">✳</span><strong>CSS</strong><small>Styling foundations</small></div>
+                <div class="skill-card"><span class="skill-index">03</span><span class="skill-symbol">↔</span><strong>Responsive Web Design</strong><small>Layouts across screens</small></div>
+                <div class="skill-card skill-featured"><span class="skill-index">04</span><span class="skill-symbol">JS</span><strong>JavaScript</strong><small>Web interactivity</small></div>
+                <div class="skill-card"><span class="skill-index">05</span><span class="skill-symbol">⇄</span><strong>API / Fetch</strong><small>Requesting data</small></div>
+                <div class="skill-card"><span class="skill-index">06</span><span class="skill-symbol">{ }</span><strong>JSON</strong><small>Working with data</small></div>
+                <div class="skill-card"><span class="skill-index">07</span><span class="skill-symbol">⌘</span><strong>GitHub</strong><small>Basics</small></div>
+                <div class="skill-card"><span class="skill-index">08</span><span class="skill-symbol">↥</span><strong>Netlify</strong><small>Deployment basics</small></div>
+                <div class="skill-card"><span class="skill-index">09</span><span class="skill-symbol">C</span><strong>C</strong><small>Programming basics</small></div>
+                <div class="skill-card"><span class="skill-index">10</span><span class="skill-symbol">Py</span><strong>Python</strong><small>Beginner level</small></div>
+                <div class="skill-card"><span class="skill-index">11</span><span class="skill-symbol">K</span><strong>Kotlin</strong><small>Learning Android</small></div>
+                <div class="skill-card"><span class="skill-index">12</span><span class="skill-symbol">◈</span><strong>Jetpack Compose</strong><small>Learning UI toolkit</small></div>
+            </div>
+        </section>
+        <section class="projects section-wrap section-pad" id="projects">
+            <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">SELECTED EXPERIMENTS <span class="eyebrow-line"></span></p><h2>Things I've <span class="accent-text">been making.</span></h2></div><p class="section-intro">Small steps, real projects. A mix of finished experiments and ideas in progress.</p></div>
+            <div class="project-grid">
+                <article class="project-card reveal"><div class="project-visual visual-shop"><div class="visual-browser"><div class="visual-browser-bar"><i></i><i></i><i></i><span>shop / discover</span></div><div class="shop-preview"><div class="shop-side"><b>Discover</b><span></span><span></span><span></span></div><div class="shop-items"><div class="shop-item item-one"><span>01</span></div><div class="shop-item item-two"><span>02</span></div><div class="shop-item item-three"><span>03</span></div></div></div></div><span class="visual-label">API · PRODUCT UI</span></div><div class="project-info"><div class="project-title-row"><span class="project-number">01</span><span class="project-state"><i></i> WEB PROJECT</span></div><h3>Shopping Portal</h3><p>A product storefront that fetches items from the Fake Store API and renders them in browsable cards. Product pages use an ID in the query string.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Fetch API</span><span>REST API</span></div><div class="project-links"><a class="project-link placeholder-link" href="#projects" data-project="Shopping Portal">View Project <span>↗</span></a></div></div></article>
+                <article class="project-card reveal"><div class="project-visual visual-news"><div class="news-preview"><div class="news-top"><span>THE DAILY / TODAY</span><span>•••</span></div><div class="news-lead"><div class="news-image"></div><div><small>TECHNOLOGY · 5 MIN READ</small><b>Stories worth<br>staying curious for.</b></div></div><div class="news-lines"><i></i><i></i><i></i></div><div class="news-cards"><span></span><span></span><span></span></div></div><span class="visual-label">DYNAMIC CONTENT</span></div><div class="project-info"><div class="project-title-row"><span class="project-number">02</span><span class="project-state"><i></i> WEB PROJECT</span></div><h3>News Website</h3><p>A news-card layout that displays articles from API data, built to practice fetching content and creating page elements dynamically.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div><div class="project-links"><a class="project-link placeholder-link" href="#projects" data-project="News Website">View Project <span>↗</span></a></div></div></article>
+                <article class="project-card reveal"><div class="project-visual visual-weather"><div class="weather-preview"><div class="weather-head"><span>WEATHER / NOW</span><span>⌖</span></div><div class="weather-main"><span class="weather-sun">☼</span><div><b>24°</b><small>Partly cloudy</small></div></div><div class="weather-city">YOUR CITY <span>↗</span></div><div class="weather-stats"><span>HUMIDITY <b>--%</b></span><span>WIND <b>-- km/h</b></span></div></div><span class="visual-label">IN PROGRESS</span></div><div class="project-info"><div class="project-title-row"><span class="project-number">03</span><span class="project-state state-planning"><i></i> PLANNING / BUILDING</span></div><h3>Weather Website</h3><p>A work-in-progress weather app idea: use a weather API to bring live conditions into a clear, responsive interface.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Weather API</span></div><div class="project-links"><a class="project-link placeholder-link" href="#projects" data-project="Weather Website">View Project <span>↗</span></a></div></div></article>
+                <article class="project-card reveal"><div class="project-visual visual-social"><div class="phone-frame"><div class="phone-notch"></div><div class="social-ui"><div class="social-bar"><b>social<span>x</span></b><span>⌕　♧</span></div><div class="story-row"><i></i><i></i><i></i><i></i></div><div class="feed-post"><div class="feed-author"><i></i><span>your feed<br><small>just now</small></span><b>···</b></div><div class="feed-art"><span>MAKE<br>CONNECTIONS.</span></div><div class="feed-actions">♡　◯　↗</div></div></div></div><span class="visual-label">ANDROID · COMPOSE</span></div><div class="project-info"><div class="project-title-row"><span class="project-number">04</span><span class="project-state state-learning"><i></i> LEARNING PROJECT</span></div><h3>SocialX</h3><p>A social app concept I'm learning to build in Android Studio, with a dark interface, navigation and social-style screens.</p><div class="tag-list"><span>Kotlin</span><span>Jetpack Compose</span><span>Android Studio</span></div><div class="project-links"><a class="project-link placeholder-link" href="#projects" data-project="SocialX">View Project <span>↗</span></a></div></div></article>
+                <article class="project-card reveal"><div class="project-visual visual-jarvis"><div class="assistant-preview"><div class="assistant-orbit"><span></span></div><div class="assistant-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="assistant-caption"><span>J.A.R.V.I.S</span><small>VOICE ASSISTANT CONCEPT</small></div><div class="assistant-terminal"><span>&gt;</span> listening for a command<span class="terminal-cursor"></span></div></div><span class="visual-label">PYTHON · AI</span></div><div class="project-info"><div class="project-title-row"><span class="project-number">05</span><span class="project-state state-learning"><i></i> LEARNING PROJECT</span></div><h3>JARVIS AI</h3><p>A personal voice-assistant concept exploring voice input, speech output, AI interaction and assistant-style commands in Python.</p><div class="tag-list"><span>Python</span><span>Speech Recognition</span><span>Text-to-Speech</span><span>AI APIs</span></div><div class="project-links"><a class="project-link placeholder-link" href="#projects" data-project="JARVIS AI">View Project <span>↗</span></a></div></div></article>
+            </div>
+            <p class="project-note reveal"><span>↗</span> Project links will be added as each project is published.</p>
+        </section>
+        <section class="journey section-wrap section-pad" id="journey">
+            <div class="section-heading reveal"><p class="eyebrow">STILL IN PROGRESS <span class="eyebrow-line"></span></p><h2>My Learning <span class="accent-text">Journey.</span></h2><p class="section-intro">Following curiosity from the building blocks of the web to new ways of creating.</p></div>
+            <div class="timeline reveal"><div class="timeline-track" aria-hidden="true"><span></span></div>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">01</span><div><h3>HTML & CSS</h3><p>Learning how to structure pages and shape responsive layouts.</p></div><span class="timeline-kind">FOUNDATIONS</span></article>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">02</span><div><h3>JavaScript</h3><p>Making web pages interactive and practicing core programming concepts.</p></div><span class="timeline-kind">IN PRACTICE</span></article>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">03</span><div><h3>APIs & Fetch</h3><p>Connecting interfaces to data and learning to work with JSON.</p></div><span class="timeline-kind">EXPLORING</span></article>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">04</span><div><h3>Real-world Web Projects</h3><p>Putting the pieces together by building and iterating on useful ideas.</p></div><span class="timeline-kind">BUILDING</span></article>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">05</span><div><h3>Android Development</h3><p>Learning Kotlin and Jetpack Compose in Android Studio.</p></div><span class="timeline-kind">LEARNING</span></article>
+                <article class="timeline-item"><span class="timeline-dot"></span><span class="timeline-step">06</span><div><h3>Python & AI Projects</h3><p>Exploring Python, voice assistants and ideas powered by AI.</p></div><span class="timeline-kind">NEXT EXPERIMENTS</span></article>
+            </div>
+        </section>
+        <section class="contact-section section-wrap" id="contact">
+            <div class="contact-panel reveal"><div class="contact-orbit" aria-hidden="true"></div><div class="contact-content"><p class="eyebrow">HAVE AN IDEA? <span class="eyebrow-line"></span></p><h2>Let's Build<br><span class="accent-text">Something.</span></h2><p>I'm always interested in learning, building and working on new projects.</p><a class="button button-primary contact-cta" href="mailto:your-email@example.com">Say hello <span>↗</span></a></div><div class="contact-details"><span class="tiny-label">FIND ME HERE</span><a href="mailto:your-email@example.com"><span>EMAIL</span>your-email@example.com <b>↗</b></a><a href="https://github.com/yourusername" target="_blank" rel="noreferrer"><span>GITHUB</span>github.com/yourusername <b>↗</b></a><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer"><span>LINKEDIN</span>linkedin.com/in/yourusername <b>↗</b></a><p><span class="status-dot"></span> Open to learning something new</p></div></div>
+        </section>
+    </main>
+    <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">J<span>.</span></span><span>Jai Dev</span></a><p>© 2026 Jai Dev — Built with HTML, CSS & JavaScript</p><a class="back-top" href="#home">BACK TO TOP <span>↑</span></a></footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
